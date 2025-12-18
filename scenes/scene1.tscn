@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dquhfmwwr4ia"]
+
+[ext_resource type="Texture2D" uid="uid://ddnq0tjuba6gc" path="res://sprites/icon.svg" id="1_td60s"]
+[ext_resource type="PackedScene" uid="uid://dj0vtn1gx8uaq" path="res://scenes/testsprite.tscn" id="2_007yp"]
+
+[node name="Icon" type="Sprite2D"]
+position = Vector2(341, 287)
+texture = ExtResource("1_td60s")
+
+[node name="Node2D" parent="." instance=ExtResource("2_007yp")]
+position = Vector2(208, 52.000008)
+scale = Vector2(3.7762432, 3.7762432)
